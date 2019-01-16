@@ -386,20 +386,48 @@ table {
   }
 }
 
-/* line 8, src/sass/components/form.scss */
+/* line 7, src/sass/components/form.scss */
+.contact__text {
+  padding-bottom: 15px;
+  font-size: 14px;
+}
+
+/* line 11, src/sass/components/form.scss */
+.contact__social {
+  padding-bottom: 15px;
+  font-size: 21px;
+}
+
+/* line 14, src/sass/components/form.scss */
+.contact__social--link {
+  text-decoration: none;
+  color: #e2dddd;
+}
+
+/* line 18, src/sass/components/form.scss */
+.contact__social span {
+  padding-right: 10px;
+}
+
+/* line 20, src/sass/components/form.scss */
+.contact__social span:hover {
+  color: #5a5a5a;
+}
+
+/* line 27, src/sass/components/form.scss */
 .contact__form__group {
   width: 20%;
   padding-bottom: 10px;
 }
 
-/* line 11, src/sass/components/form.scss */
+/* line 30, src/sass/components/form.scss */
 .contact__form__group--label {
   color: #e2dddd;
   text-transform: uppercase;
   font-size: 12px;
 }
 
-/* line 16, src/sass/components/form.scss */
+/* line 35, src/sass/components/form.scss */
 .contact__form__group--input {
   margin-top: 15px;
   width: 350px;
@@ -412,18 +440,18 @@ table {
 }
 
 @media (max-width: 800px) {
-  /* line 16, src/sass/components/form.scss */
+  /* line 35, src/sass/components/form.scss */
   .contact__form__group--input {
     width: 240px;
   }
 }
 
-/* line 29, src/sass/components/form.scss */
+/* line 48, src/sass/components/form.scss */
 .contact__form__group--input--message {
   height: 50px;
 }
 
-/* line 32, src/sass/components/form.scss */
+/* line 51, src/sass/components/form.scss */
 .contact__form__group--input--button {
   width: 150px;
   height: 30px;
@@ -432,7 +460,7 @@ table {
   cursor: pointer;
 }
 
-/* line 38, src/sass/components/form.scss */
+/* line 57, src/sass/components/form.scss */
 .contact__form__group--input--button:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
