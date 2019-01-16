@@ -1,0 +1,145 @@
+/*!
+ * project-name v0.0.1
+ * A description for your project.
+ * (c) 2019 YOUR NAME
+ * MIT License
+ * http://link-to-your-git-repo.com
+ */
+
+/* line 1, src/sass/components/header.scss */
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  /* line 1, src/sass/components/header.scss */
+  .header {
+    text-align: center;
+    padding-left: 0;
+    padding-top: 0px;
+    display: block;
+  }
+}
+
+/* line 11, src/sass/components/header.scss */
+.header__logo {
+  text-transform: uppercase;
+}
+
+@media (min-width: 800px) {
+  /* line 11, src/sass/components/header.scss */
+  .header__logo {
+    width: 60%;
+  }
+}
+
+/* line 17, src/sass/components/header.scss */
+.header__logo--link {
+  text-decoration: none;
+}
+
+/* line 22, src/sass/components/header.scss */
+.header__logo--primary {
+  font-size: 36px;
+  color: #e2dddd;
+}
+
+/* line 26, src/sass/components/header.scss */
+.header__logo--secondary {
+  font-size: 14px;
+  margin-left: 89px;
+  color: #e2dddd;
+}
+
+@media (max-width: 800px) {
+  /* line 34, src/sass/components/header.scss */
+  .header__menu--desktop {
+    display: none;
+  }
+}
+
+/* line 38, src/sass/components/header.scss */
+.header__menu--desktop__content {
+  padding-top: 25px;
+}
+
+/* line 40, src/sass/components/header.scss */
+.header__menu--desktop__content__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 42, src/sass/components/header.scss */
+.header__menu--desktop__content__list--item {
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+/* line 45, src/sass/components/header.scss */
+.header__menu--desktop__content__list--item--link {
+  color: #5a5a5a;
+  text-decoration: none;
+}
+
+/* line 48, src/sass/components/header.scss */
+.header__menu--desktop__content__list--item--link:hover {
+  color: #e2dddd;
+}
+
+/* line 56, src/sass/components/header.scss */
+.header__menu--mobile {
+  padding-bottom: 30px;
+}
+
+@media (min-width: 800px) {
+  /* line 56, src/sass/components/header.scss */
+  .header__menu--mobile {
+    display: none;
+  }
+}
+
+/* line 60, src/sass/components/header.scss */
+.header__menu--mobile__title {
+  margin-top: 20px;
+}
+
+/* line 64, src/sass/components/header.scss */
+.header__menu--mobile__content {
+  background-color: #ececec;
+  opacity: 0;
+  height: 0px;
+  visibility: hidden;
+  -webkit-transition: height, 0.5s linear;
+  transition: height, 0.5s linear;
+}
+
+/* line 74, src/sass/components/header.scss */
+.header__menu--mobile__content__list {
+  color: #5a5a5a;
+}
+
+/* line 76, src/sass/components/header.scss */
+.header__menu--mobile__content__list--item {
+  padding: 15px;
+}
+
+/* line 78, src/sass/components/header.scss */
+.header__menu--mobile__content__list--item--link {
+  color: #5a5a5a;
+  text-decoration: none;
+}
+
+/* line 84, src/sass/components/header.scss */
+.header__menu--mobile__content--open {
+  visibility: visible;
+  opacity: 1;
+  height: 240px;
+  padding-top: 25px;
+  -webkit-transition: height, 0.5s linear;
+  transition: height, 0.5s linear;
+}

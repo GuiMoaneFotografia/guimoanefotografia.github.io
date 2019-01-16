@@ -1,0 +1,58 @@
+/*!
+ * project-name v0.0.1
+ * A description for your project.
+ * (c) 2019 YOUR NAME
+ * MIT License
+ * http://link-to-your-git-repo.com
+ */
+
+/* line 1, src/sass/components/form.scss */
+.contact {
+  padding-left: 20%;
+  padding-top: 5%;
+}
+
+/* line 5, src/sass/components/form.scss */
+.contact__form__group {
+  width: 20%;
+  padding-bottom: 10px;
+}
+
+/* line 8, src/sass/components/form.scss */
+.contact__form__group--label {
+  color: #e2dddd;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/* line 13, src/sass/components/form.scss */
+.contact__form__group--input {
+  margin-top: 15px;
+  width: 350px;
+  height: 25px;
+  border-radius: 2px;
+  border: 0;
+  background-color: #e2dddd;
+  padding: 5px;
+  color: #5a5a5a;
+}
+
+/* line 23, src/sass/components/form.scss */
+.contact__form__group--input--message {
+  height: 50px;
+}
+
+/* line 26, src/sass/components/form.scss */
+.contact__form__group--input--button {
+  width: 150px;
+  height: 30px;
+  border-radius: 2px;
+  border: 0;
+  cursor: pointer;
+}
+
+/* line 32, src/sass/components/form.scss */
+.contact__form__group--input--button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}

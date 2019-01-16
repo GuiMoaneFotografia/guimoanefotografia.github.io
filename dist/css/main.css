@@ -379,27 +379,20 @@ table {
   padding-top: 5%;
 }
 
-@media (max-width: 800px) {
-  /* line 1, src/sass/components/form.scss */
-  .contact {
-    padding-left: 5%;
-  }
-}
-
-/* line 8, src/sass/components/form.scss */
+/* line 5, src/sass/components/form.scss */
 .contact__form__group {
   width: 20%;
   padding-bottom: 10px;
 }
 
-/* line 11, src/sass/components/form.scss */
+/* line 8, src/sass/components/form.scss */
 .contact__form__group--label {
   color: #e2dddd;
   text-transform: uppercase;
   font-size: 12px;
 }
 
-/* line 16, src/sass/components/form.scss */
+/* line 13, src/sass/components/form.scss */
 .contact__form__group--input {
   margin-top: 15px;
   width: 350px;
@@ -411,19 +404,12 @@ table {
   color: #5a5a5a;
 }
 
-@media (max-width: 800px) {
-  /* line 16, src/sass/components/form.scss */
-  .contact__form__group--input {
-    width: 240px;
-  }
-}
-
-/* line 29, src/sass/components/form.scss */
+/* line 23, src/sass/components/form.scss */
 .contact__form__group--input--message {
   height: 50px;
 }
 
-/* line 32, src/sass/components/form.scss */
+/* line 26, src/sass/components/form.scss */
 .contact__form__group--input--button {
   width: 150px;
   height: 30px;
@@ -432,7 +418,7 @@ table {
   cursor: pointer;
 }
 
-/* line 38, src/sass/components/form.scss */
+/* line 32, src/sass/components/form.scss */
 .contact__form__group--input--button:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);

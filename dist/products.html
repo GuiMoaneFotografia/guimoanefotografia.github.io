@@ -5,11 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script src="js/form.js"></script>
+	<script src="https://unpkg.com/infinite-scroll@3.0.5/dist/infinite-scroll.pkgd.js"></script>
 </head>
 <body>
 	<header class="header">
@@ -73,31 +69,17 @@
 				</div>
     
   </header>
-	<div class="contact">
-    <div class="contact__form">
-      <div class="contact__form__group">
-        <label for="name" class="contact__form__group--label">Name*</label>
-        <input type="text" class="contact__form__group--input" id="name">
-      </div>
-      <div class="contact__form__group">
-          <label for="email" class="contact__form__group--label">E-mail*</label>
-        <input type="email" class="contact__form__group--input" id="email">
-      </div>
-      <div class="contact__form__group">
-        <label for="subject" class="contact__form__group--label">Subject*</label>
-        <input type="text" class="contact__form__group--input" id="subject">
-      </div>
-      <div class="contact__form__group">
-        <label for="message" class="contact__form__group--label">Message*</label>
-        <textarea class="contact__form__group--input contact__form__group--input--message" id="message"></textarea>
-      </div>
-      <div class="contact__form__group">
-        <button class="contact__form__group--input--button" onclick="sendForm()">SUBMIT</button>
-      </div>
-    </div>
-  </div>
+	<div class="gallery--page" >
+		<figure class="gallery__item gallery__item--1">
+			<img src="/images/products/49864451_532779657224828_2194956965199740928_n.jpg" class="gallery__img" alt="Image 1">
+		</figure>
+		<figure class="gallery__item gallery__item--2">
+			<img src="/images/products/50192597_2208887549323771_6121479894711926784_n.jpg" class="gallery__img" alt="Image 2">
+		</figure>
+	</div>
 	<script src="js/detects.js"></script>
-  <script src="js/main.polyfills.js"></script>
+	<script src="js/infinite-scroll.js"></script>
+	<script src="js/main.polyfills.js"></script>
 	
 </body>
 </html>
