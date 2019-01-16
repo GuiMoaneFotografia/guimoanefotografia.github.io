@@ -1,0 +1,14 @@
+/*!
+ * project-name v0.0.1
+ * A description for your project.
+ * (c) 2019 YOUR NAME
+ * MIT License
+ * http://link-to-your-git-repo.com
+ */
+
+/* line 1, src/sass/base/base.scss */
+body {
+  background: #0a0a0a !important;
+  color: #e2dddd !important;
+  font-family: "Raleway", sans-serif !important;
+}
