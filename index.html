@@ -107,6 +107,17 @@
 			<div class="footer__icons--ico"></div>
 		</ul>	
 	</footer>
+	<script>
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('/serviceworker.js')
+				.then(function () {
+					console.log('service worker registered');
+				})
+				.catch(function () {
+					console.warn('service worker failed');
+				});
+		}
+	</script>
 	<script src="js/detects.js"></script>
 	<script src="js/infinite-scroll.js"></script>
 	<script src="js/main.polyfills.js"></script>
