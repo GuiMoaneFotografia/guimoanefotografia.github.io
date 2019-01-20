@@ -6,10 +6,13 @@ self.addEventListener('install', function (event) {
       return cache.addAll([
         '/',
         '/index.html',
-        '/styles.css',
-        '/app.js',
-        '/manifest.js',
-        '/vendor.js',
+        '/css/main.css',
+        '/contact.html',
+        '/portrait.html',
+        '/products.html',
+        '/street.html',
+        '/js/form.js',
+        '/js/detects.js'
       ]);
     })
   )
