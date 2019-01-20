@@ -1,0 +1,9 @@
+{
+  "name": "Gui Moane Fotografia",
+  "short_name": "Gui Moane",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/street.html"
+}
